@@ -44,9 +44,9 @@ Users should be able to:
 #### Screenshot:
 
 <img src="./screenshots/homre light.png" alt="Screenshot 1" width="400"/>
-<img src="./screenshots/homre light 1.png.png" alt="Screenshot 2" width="400"/> <br/>
+<img src="./screenshots/homre light 1.png" alt="Screenshot 2" width="400"/> <br/>
 <img src="./screenshots/homre light 2.png" alt="Screenshot 3" width="400"/>
-<img src="./screenshots/homre dark.png.png" alt="Screenshot 4" width="400"/> <br/>
+<img src="./screenshots/homre dark.png" alt="Screenshot 4" width="400"/> <br/>
 <img src="./screenshots/home detail light.png" alt="Screensho5" width="400"/>
 <img src="./screenshots/home detail dark.png" alt="Screenshot 6" width="400"/> <br/>
 <img src="./screenshots/homre mobile dark.png" alt="Screenshot 7" width="400"/>
