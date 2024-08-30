@@ -12,7 +12,7 @@ const CountryDetails = () => {
   const [countryDetails, setCountry] = useState({
     languages: {},
     flags: {},
-    name: {nativeName: {eng: {}}},
+    name: {nativeName: {eng: {}, fra: {}}},
     capital: [],
     tld: [],
     currencies: [],
@@ -49,6 +49,10 @@ const CountryDetails = () => {
     setCurrenciesTab(currenciesTab);
   }, [countryDetails]);
 
+  useEffect(() => {
+    console.log(languages);
+  }, [languages])
+
   return (
     <div
       className={`2xl:px-32 xl:px-12 sm:px-8 px-6 w-full min-h-[60vh] pb-8 text-[16px] flex flex-col items-center ${
@@ -57,8 +61,6 @@ const CountryDetails = () => {
           : "bg-backgroundDark text-textLight"
       }
           `}
-
-
     >
 
       <div>
@@ -92,7 +94,7 @@ const CountryDetails = () => {
             <div className="grid grid-flow-row grid-cols-1 lg:grid-flow-col lg:grid-rows-5 font-semibold gap-y-2 2xl:gap-x-32 xl:gap-x-8 max-sm:gap-x-0 ">
               <span>
                 Native Name:
-                <span className={SpanStyle}> {countryDetails.name.nativeName.eng.official}  </span>
+                <span className={SpanStyle}> {countryDetails.name.nativeName[languages[0]]? countryDetails.name.nativeName[languages[0]].official : '' }  </span>
               </span>
               <span>
                 Population:
@@ -168,7 +170,7 @@ const CountryDetails = () => {
           </div>
         </div>
       ) : (
-        "No country found"
+        "No data found  or no internet connection"
       )}
       </div>
       

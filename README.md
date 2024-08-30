@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# Frontend Mentor - REST Countries API with color theme switcher solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the REST Countries API with color theme switcher challenge on Frontend Mentor. This project allows users to browse countries from the REST Countries API and switch between light and dark themes.
 
-## Available Scripts
+# Table of Contents
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The Challenge
+Screenshot
+Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## My Process
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Built With  
+What I Learned
+Continued Development
+Useful Resources
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation
+Usage
 
-### `npm run build`
+## Author
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Overview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### The Challenge
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Users should be able to:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- See all countries from the API on the homepage.
+- Search for a country using an input field.
+- Filter countries by region.
+- Click on a country to see more detailed information on a separate page.
+- Click through to the border countries on the detail page.
+- Toggle the color scheme between light and dark mode.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Screenshot:
 
-## Learn More
+<img src="./screenshots/homre light.png" alt="Screenshot 1" width="400"/>
+<img src="./screenshots/homre light 1.png.png" alt="Screenshot 2" width="400"/> <br/>
+<img src="./screenshots/homre light 2.png" alt="Screenshot 3" width="400"/>
+<img src="./screenshots/homre dark.png.png" alt="Screenshot 4" width="400"/> <br/>
+<img src="./screenshots/home detail light.png" alt="Screensho5" width="400"/>
+<img src="./screenshots/home detail dark.png" alt="Screenshot 6" width="400"/> <br/>
+<img src="./screenshots/homre mobile dark.png" alt="Screenshot 7" width="400"/>
+<img src="./screenshots/detail mobile dark.png" alt="Screenshot 8" width="400"/> <br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Solution URL: [Solution URL here]()
+- Live Site URL: [Live site URL here]()
 
-### Code Splitting
+### My Process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Built With
 
-### Analyzing the Bundle Size
+React: A JavaScript library for building user interfaces.
+Vite: A fast build tool that provides instant server start, fast HMR, and optimized builds.
+TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
+React Router Dom: For handling navigation between different pages.
+Axios: A promise-based HTTP client for making requests to the REST Countries API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Why These Technologies?
 
-### Making a Progressive Web App
+Vite: Chosen for its speed and modern tooling, which allows for a smoother development experience compared to traditional tools like CRA.
+TypeScript: Adds type safety to the project, helping to catch errors early in the development process and making the codebase more maintainable.
+Tailwind CSS: Enables rapid styling with its utility-first approach, making it easier to create responsive and consistent designs without writing custom CSS.
+React Router Dom: Essential for creating a multi-page application with seamless navigation.
+Axios: Provides a simple and intuitive API for making HTTP requests, handling responses, and managing errors.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### What I Learned
 
-### Advanced Configuration
+This project allowed me to reinforce my understanding of React, TypeScript, and Tailwind CSS, particularly in the context of building a responsive and theme-switching interface. I also deepened my experience with handling API requests using Axios and managing navigation with React Router.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Continued Development
 
-### Deployment
+Moving forward, I plan to enhance this project by adding features such as caching API responses to reduce load times and implementing further optimizations for performance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### Useful Resources
 
-### `npm run build` fails to minify
+[Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)- Essential for styling the application.
+[Vite Documentation](https://vitejs.dev/guide) - Helped in setting up and configuring the build tool.
+[REST Countries API Documentation](https://restcountries.com/) - The primary data source for the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Getting Started
+
+#### Installation
+
+Clone the repository:
+##### `git clone https://github.com/concepteur19/rest-coutries-api.git`
+
+Navigate to the project directory: 
+##### `cd rest-countries-api`
+
+Install dependencies: 
+##### `npm install`
+
+#### Usage
+
+Start the development server:
+##### `npm start`
+
+Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to view the application.
+
+### Author
+GitHub - concepteur19
+Frontend Mentor - @concepteur19
+Twitter - @nguening
+
+### Acknowledgments
+A big thank you to the Frontend Mentor community for providing this challenge and the resources to help developers grow. This project was a great learning experience and I appreciate the feedback from the community.
