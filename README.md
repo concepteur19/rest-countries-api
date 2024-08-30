@@ -26,8 +26,6 @@ Usage
 
 ## Acknowledgments
 
-
-
 ### Overview
 
 #### The Challenge
@@ -44,13 +42,13 @@ Users should be able to:
 #### Screenshot:
 
 <img src="./screenshots/homre light.png" alt="Screenshot 1" width="400"/>
-<img src="./screenshots/homre light 1.png" alt="Screenshot 2" width="400"/> <br/>
+<img src="./screenshots/homre light 1.png" alt="Screenshot 2" width="400"/> 
 <img src="./screenshots/homre light 2.png" alt="Screenshot 3" width="400"/>
-<img src="./screenshots/homre dark.png" alt="Screenshot 4" width="400"/> <br/>
+<img src="./screenshots/homre dark.png" alt="Screenshot 4" width="400"/> 
 <img src="./screenshots/home detail light.png" alt="Screensho5" width="400"/>
-<img src="./screenshots/home detail dark.png" alt="Screenshot 6" width="400"/> <br/>
+<img src="./screenshots/home detail dark.png" alt="Screenshot 6" width="400"/>
 <img src="./screenshots/homre mobile dark.png" alt="Screenshot 7" width="400"/>
-<img src="./screenshots/detail mobile dark.png" alt="Screenshot 8" width="400"/> <br/>
+<img src="./screenshots/detail mobile dark.png" alt="Screenshot 8" width="400"/>
 
 #### Links
 
@@ -87,7 +85,9 @@ Moving forward, I plan to enhance this project by adding features such as cachin
 #### Useful Resources
 
 [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)- Essential for styling the application.
+
 [Vite Documentation](https://vitejs.dev/guide) - Helped in setting up and configuring the build tool.
+
 [REST Countries API Documentation](https://restcountries.com/) - The primary data source for the project.
 
 ### Getting Started
@@ -95,25 +95,31 @@ Moving forward, I plan to enhance this project by adding features such as cachin
 #### Installation
 
 Clone the repository:
+
 ##### `git clone https://github.com/concepteur19/rest-coutries-api.git`
 
-Navigate to the project directory: 
+Navigate to the project directory:
+
 ##### `cd rest-countries-api`
 
-Install dependencies: 
+Install dependencies:
+
 ##### `npm install`
 
 #### Usage
 
 Start the development server:
+
 ##### `npm start`
 
 Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to view the application.
 
 ### Author
+
 GitHub - concepteur19
 Frontend Mentor - @concepteur19
 Twitter - @nguening
 
 ### Acknowledgments
+
 A big thank you to the Frontend Mentor community for providing this challenge and the resources to help developers grow. This project was a great learning experience and I appreciate the feedback from the community.
