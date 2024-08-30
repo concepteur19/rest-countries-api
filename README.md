@@ -124,9 +124,9 @@ Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
 ### Author
 
-- GitHub - concepteur19
-- Frontend Mentor - @concepteur19
-- Twitter - @nguening
+- GitHub - [concepteur19](https://github.com/concepteur19)
+- Frontend Mentor - [@concepteur19](https://www.frontendmentor.io/profile/concepteur19)
+- X - [@nguening](https://x.com/nguening)
 
 ### Acknowledgments
 
