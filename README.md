@@ -69,9 +69,13 @@ Axios: A promise-based HTTP client for making requests to the REST Countries API
 #### Why These Technologies?
 
 Vite: Chosen for its speed and modern tooling, which allows for a smoother development experience compared to traditional tools like CRA.
+
 TypeScript: Adds type safety to the project, helping to catch errors early in the development process and making the codebase more maintainable.
+
 Tailwind CSS: Enables rapid styling with its utility-first approach, making it easier to create responsive and consistent designs without writing custom CSS.
+
 React Router Dom: Essential for creating a multi-page application with seamless navigation.
+
 Axios: Provides a simple and intuitive API for making HTTP requests, handling responses, and managing errors.
 
 #### What I Learned
