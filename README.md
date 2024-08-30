@@ -90,6 +90,10 @@ Moving forward, I plan to enhance this project by adding features such as cachin
 
 [REST Countries API Documentation](https://restcountries.com/) - The primary data source for the project.
 
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook) - A comprehensive guide for understanding TypeScript.
+
+[React Router Documentation](https://reactrouter.com/docs) - Essential for setting up and managing routes in the project.
+
 ### Getting Started
 
 #### Installation
@@ -116,9 +120,9 @@ Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
 ### Author
 
-GitHub - concepteur19
-Frontend Mentor - @concepteur19
-Twitter - @nguening
+- GitHub - concepteur19
+- Frontend Mentor - @concepteur19
+- Twitter - @nguening
 
 ### Acknowledgments
 
