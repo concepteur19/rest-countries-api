@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SearchBar from "../components/searchBar";
-import Navbar from "../components/layout/navbar";
+import Navbar from "../components/layout/Navbar";
 import SelectInput from "../components/selectInput";
 import getAllCountries from "../../apis/getAllCountriesApi";
 import CountriesCard from "../components/countriesCard";

@@ -4,7 +4,7 @@ import CountryDetails from "./views/pages/countryDetails/index";
 import Home from "./views/pages/index";
 import { useTheme } from "./contexts/themeContext";
 import {useParams} from "react"
-import Navbar from "./views/components/layout/navbar";
+import Navbar from "./views/components/layout/Navbar";
 
 function App() {
   const { isDarkTheme } = useTheme();
