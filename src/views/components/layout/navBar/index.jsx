@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { PiMoon, PiSun } from "react-icons/pi";
 // import ThemeSwitcher from "../../../components/themeSwitcher";
 
-const Index = () => {
+const Navbar = () => {
   const { isDarkTheme, setIsDarkTheme } = useContext(ThemeContext);
 
   return (
@@ -42,4 +42,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Navbar;

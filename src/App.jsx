@@ -1,10 +1,10 @@
 import "../src/styles/App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CountryDetails from "./views/pages/countryDetails/index";
-import Navbar from "./views/components/layout/navbar/index";
 import Home from "./views/pages/index";
 import { useTheme } from "./contexts/themeContext";
 import {useParams} from "react"
+import Navbar from "./views/components/layout/navbar";
 
 function App() {
   const { isDarkTheme } = useTheme();
